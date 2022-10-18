@@ -1,0 +1,13 @@
+.detail-page {
+    min-height: calc(100vh - 316px);
+    display: flex;
+    flex-direction: row;
+
+    @media(max-width: 768px) {
+        flex-direction: column;
+    }
+
+    img {
+        min-height: calc(100vh - 316px);
+    }
+}

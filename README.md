@@ -1,59 +1,70 @@
-# Mini-Netflix-Assessment
+# Getting Started with Create React App
 
-Description
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is an exercise to demonstrate that one has a working knowledge of React, and common React-based libraries.
+## Available Scripts
 
-More specifically, the goal here is to demonstrate knowledge of the following four items - which are essential for any large React-based client project that we might take on:
+In the project directory, you can run:
 
-Component syntax and structure
+### `npm start`
 
-Passing data to/from components
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Managing global state
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Handing routes
+### `npm test`
 
- Requirements
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Build a minimal two-page SPA using React.
+### `npm run build`
 
-The first page will contain a list of movie poster thumbnails.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-When a poster thumbnail is clicked, it will redirect to a “movie details” page.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-On the movie details page, the user should see a poster, title, description, and rating for the movie.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-When this page is first loaded, fetch the movie data from an external API.
+### `npm run eject`
 
-After the movie data is fetched, display it on the page, and add it to your React store.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Subsequent visits to the page should load data from the store - instead of making another API request.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-You should be able to load different movies by updating the URL. For example, typing http://localhost:8080/movie/123 in your browser bar should load the movie details for the movie with ID #123.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Please include at least 5 different movies.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-ES6+ JavaScript
+## Learn More
 
-BEM/SASS
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-No CSS framework should be used (no bootstrap, etc., show us your SCSS skills)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Semantic HTML
+### Code Splitting
 
-Responsive
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-ADA / WCAG Accessible (as much as possible, don’t spend too much time)
+### Analyzing the Bundle Size
 
-Google Chrome support (no need to test other browsers for this exercise)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Build Process (Gulp, Grunt, Webpack, etc) with clear documentation on how to get your app up and running.
+### Making a Progressive Web App
 
-Notes
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-You can use the OMDb API for fetching movie data - http://www.omdbapi.com/
+### Advanced Configuration
 
-The look-and-feel of this mini app is completely up to you, make it as simple or as fancy as you’d like.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-A basic build system should be used that contains at least two tasks. The first task should start a local server with a watch to rebuild on save. The second task should output minified distribution assets.  Feel free to use an existing build system you have if it meets the requirements above. If you need assistance with getting a build system up and running, check out the Webpack Getting Started page.
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

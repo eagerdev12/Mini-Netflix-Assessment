@@ -1,0 +1,33 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+
+    .card {
+        position: relative;
+        width: 270px;
+        border: 2px solid black;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        @media(max-width: 1200px) {
+            width: 225px
+        }
+        
+        @media(max-width: 768px) {
+            width: 220px
+        }
+    
+        @media(max-width: 576px) {
+            width: 300px;
+        }
+
+        img {
+            width: calc(100% - 10px);
+            max-height: 400px;
+        }
+    }
+}
